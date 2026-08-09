@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "szybki-python"
+version = "0.1.0"
+description = "Wysokowydajne, zoptymalizowane funkcje dla polskich deweloperów (PESEL, NIP, KSeF XML, diakrytyki, kody pocztowe)."
+readme = "README.md"
+authors = [
+    { name = "Rafal & Autonomous AI Worker", email = "dev@example.com" }
+]
+license = { text = "MIT" }
+keywords = [
+    "pesel", "nip", "regon", "ksef", "jpk", "diakrytyki", "kody pocztowe",
+    "polska", "python", "optimization", "wydajnosc", "fast"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: General",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/prefixus/autonomous_worker"
+Repository = "https://github.com/prefixus/autonomous_worker.git"
