@@ -3,7 +3,7 @@
 Wydajność: ~11.9x szybciej niż liniowe skanowanie pętlą (+1090% przyspieszenia).
 """
 
-from typing import Mapping
+from collections.abc import Mapping
 
 DEFAULT_LOCKERS: dict[str, str] = {
     "KRA01M": "Kraków",
