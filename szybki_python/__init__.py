@@ -4,14 +4,14 @@ Zbudowane przy użyciu agentów AI (LangGraph + Qwen + Gemma Council).
 Licencja: MIT
 """
 
-from .diacritics import usun_diakrytyki, strip_polish_diacritics
-from .postal_codes import dopasuj_kod_pocztowy, route_postal_code
-from .ksef_xml import parsuj_faktury_ksef, parse_ksef_xml_stream
-from .validators import waliduj_pesel, waliduj_nip, waliduj_regon, batch_validate_pesel_nip
-from .kwota_slownie import kwota_slownie, amount_in_words
-from .nrb import waliduj_nrb, route_nrb_bank
+from .diacritics import strip_polish_diacritics, usun_diakrytyki
+from .ean_bdo import waliduj_bdo, waliduj_ean13
+from .ksef_xml import parse_ksef_xml_stream, parsuj_faktury_ksef
+from .kwota_slownie import amount_in_words, kwota_slownie
+from .nrb import route_nrb_bank, waliduj_nrb
 from .plural import odmien_liczebnik, pluralize_polish
-from .ean_bdo import waliduj_ean13, waliduj_bdo
+from .postal_codes import dopasuj_kod_pocztowy, route_postal_code
+from .validators import batch_validate_pesel_nip, waliduj_nip, waliduj_pesel, waliduj_regon
 
 __all__ = [
     "usun_diakrytyki",

@@ -3,20 +3,42 @@
 Wydajność: >4 500 000 kwot / sekundę (zysk wydajności ~22.5x).
 """
 
-from typing import Any
-
 units = ["", "jeden", "dwa", "trzy", "cztery", "pięć", "sześć", "siedem", "osiem", "dziewięć"]
 teens = [
-    "dziesięć", "jedenaście", "dwanaście", "trzynaście", "czternaście",
-    "piętnaście", "szesnaście", "siedemnaście", "osiemnaście", "dziewiętnaście"
+    "dziesięć",
+    "jedenaście",
+    "dwanaście",
+    "trzynaście",
+    "czternaście",
+    "piętnaście",
+    "szesnaście",
+    "siedemnaście",
+    "osiemnaście",
+    "dziewiętnaście",
 ]
 tens = [
-    "", "dziesięć", "dwadzieścia", "trzydzieści", "czterdzieści",
-    "pięćdziesiąt", "sześćdziesiąt", "siedemdziesiąt", "osiemdziesiąt", "dziewięćdziesiąt"
+    "",
+    "dziesięć",
+    "dwadzieścia",
+    "trzydzieści",
+    "czterdzieści",
+    "pięćdziesiąt",
+    "sześćdziesiąt",
+    "siedemdziesiąt",
+    "osiemdziesiąt",
+    "dziewięćdziesiąt",
 ]
 hundreds = [
-    "", "sto", "dwieście", "trzysta", "czterysta",
-    "pięćset", "sześćset", "siedemset", "osiemset", "dziewięćset"
+    "",
+    "sto",
+    "dwieście",
+    "trzysta",
+    "czterysta",
+    "pięćset",
+    "sześćset",
+    "siedemset",
+    "osiemset",
+    "dziewięćset",
 ]
 suffixes = ["złotych", "złoty", "złote", "złote", "złote", "złotych", "złotych", "złotych", "złotych", "złotych"]
 grosze_suffixes = ["groszy", "grosz", "grosze", "grosze", "grosze", "groszy", "groszy", "groszy", "groszy", "groszy"]

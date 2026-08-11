@@ -3,6 +3,7 @@
 Wydajność: ~7.8x szybciej niż standardowe pętle Python (+676% przyspieszenia).
 """
 
+
 def odmien_liczebnik(n: int, form1: str, form2: str, form3: str) -> str:
     """Zwraca odpowiednią formę gramatyczną rzeczownika w zależności od liczby n.
 
