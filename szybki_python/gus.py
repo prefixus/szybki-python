@@ -5,7 +5,6 @@ Bezpieczeństwo: Odporny na XXE oraz zniekształcenia komentarzy XML/CDATA.
 """
 
 import io
-from typing import Any
 import xml.etree.ElementTree as ET
 
 
