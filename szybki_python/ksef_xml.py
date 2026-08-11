@@ -9,10 +9,10 @@ Wdrożono zlecenia bezpieczeństwa i jakości (Mateusz Smektała - smekcio/ksef-
 6. Odporność na formaty kwot z przecinkami (100,50 -> 100.50).
 """
 
-from decimal import Decimal, InvalidOperation
 import io
-from typing import Any
 import xml.etree.ElementTree as ET
+from decimal import Decimal, InvalidOperation
+from typing import Any
 
 
 def parsuj_faktury_ksef(xml_content: str | bytes | io.BufferedIOBase) -> dict[str, Any]:

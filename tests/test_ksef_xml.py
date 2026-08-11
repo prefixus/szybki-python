@@ -1,12 +1,8 @@
-"""Tests for ksef_xml module addressing all security and correctness feedback from Mateusz Smektała (smekcio).
-"""
+"""Tests for ksef_xml module addressing all security and correctness feedback from Mateusz Smektała (smekcio)."""
 
 from decimal import Decimal
-import io
-import pytest
 
-from szybki_python.ksef_xml import parsuj_faktury_ksef, parse_ksef_xml_stream
-
+from szybki_python.ksef_xml import parsuj_faktury_ksef
 
 KSEF_XML_SAMPLE = """<?xml version="1.0" encoding="UTF-8"?>
 <Faktura xmlns="http://crd.gov.pl/wzor/2023/06/29/12648/">
