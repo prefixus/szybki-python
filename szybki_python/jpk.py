@@ -4,10 +4,9 @@ Wydajność: ~3.9x szybciej niż standardowy ElementTree DOM (+287% przyspieszen
 Precyzja: Decimal (100% dokładności podatkowo-finansowej).
 """
 
-from decimal import Decimal, InvalidOperation
 import io
-from typing import Any
 import xml.etree.ElementTree as ET
+from decimal import Decimal, InvalidOperation
 
 
 def agreguj_jpk(xml_content: str | bytes | io.BufferedIOBase, target_tag: str = "K_19") -> Decimal:
@@ -26,7 +25,7 @@ def agreguj_jpk(xml_content: str | bytes | io.BufferedIOBase, target_tag: str = 
 
     total = Decimal("0.00")
 
-    for event, elem in ET.iterparse(source, events=("end",)):
+    for _event, elem in ET.iterparse(source, events=("end",)):
         tag_name = elem.tag.split("}")[-1] if "}" in elem.tag else elem.tag
         if tag_name == target_tag and elem.text:
             try:

@@ -1,9 +1,10 @@
 """Unit tests for phone, vies, and jpk modules in packages/szybki_python."""
 
 from decimal import Decimal
+
+from szybki_python.jpk import agreguj_jpk
 from szybki_python.phone import normalizuj_telefon
 from szybki_python.vies import wyczysc_nip_vies
-from szybki_python.jpk import agreguj_jpk
 
 
 def test_normalizuj_telefon():
