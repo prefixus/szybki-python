@@ -3,7 +3,7 @@
 Precyzja: Decimal (100% zgodności podatkowo-finansowej, brak błędu IEEE 754).
 """
 
-from decimal import Decimal, ROUND_HALF_UP
+from decimal import ROUND_HALF_UP, Decimal
 
 _ZUS_RATE = Decimal("0.1371")
 _TAX_THRESHOLD = Decimal("120000.00")
